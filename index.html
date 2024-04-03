@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Sign Up</h1>
+        <form id="form">
+        <div class="input">
+            <label for="uname">Username</label>
+            <input type="text" id="username" name="username" placeholder="enter username"/>
+        <span id="name_error" style="color:red;"></span>
+        </div>
+        <div class="input">
+            <label for="mail">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="enter your email"/>
+        <span id="mail_error" style="color: red;"></span>
+        </div>
+        <div class="input">
+            <label for="contact">Contact</label>
+            <input type="tel" id="number" name="mobile"  maxlength="10" placeholder="contact"/>
+            <span id="cnt_error" style="color:red;"></span>
+        </div>
+        
+        <div class="input">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="enter a password"/> 
+            <span id="pswrd_error" style="color: red;"></span>
+        </div>
+
+        <div class="input">
+            <label for="confirmpass">Confirm password</label>
+            <input type="password" id="confirmpass" placeholder="Re-enter the password"/>
+            <span id="confpwd_error" style="color:red;"></span>
+        </div>
+
+        <div class="input">
+            <button type="submit">Submit</button>
+        </div>
+
+        </form>
+
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
